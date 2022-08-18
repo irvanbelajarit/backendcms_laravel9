@@ -5,7 +5,7 @@ admin dashboard
 @endsection
 
 @section('breadcrumbs')
-breadcrumb
+{{ Breadcrumbs::render('dashboard') }}
 @endsection
 
 @section('content')
