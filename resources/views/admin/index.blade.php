@@ -9,6 +9,6 @@ breadcrumb
 @endsection
 
 @section('content')
-    <h1>dashboard</h1>
-    @yield('breadcrumbs')
+    <h1>@yield('title')</h1>
+
 @endsection
